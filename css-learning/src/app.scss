@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  background: beige;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      list-style-type: none;
+      margin-right: 20px;
+      Link {
+      text-decoration: none;
+      }
+    }
+  }
+}

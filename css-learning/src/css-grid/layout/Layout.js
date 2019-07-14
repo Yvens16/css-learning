@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 require('./layout.scss')
 
+
+//Stateless component should be Functionnal
 export default class Layout extends Component {
   render () {
     return (
@@ -47,19 +49,19 @@ export default class Layout extends Component {
           <h2>Our sponsors</h2>
           <section className='sponsors'>
             <figure className='sponsor'>
-              <img src='https://via.placeholder.com/150x150' alt='' />
+              <img src='https://via.placeholder.com/150x150' alt='placeholder' />
             </figure>
             <figure className='sponsor'>
-              <img src='https://via.placeholder.com/200x150' alt='' />
+              <img src='https://via.placeholder.com/200x150' alt='placeholder' />
             </figure>
             <figure className='sponsor'>
-              <img src='https://via.placeholder.com/100x200' alt='' />
+              <img src='https://via.placeholder.com/100x200' alt='placeholder' />
             </figure>
             <figure className='sponsor'>
-              <img src='https://via.placeholder.com/100x100' alt='' />
+              <img src='https://via.placeholder.com/100x100' alt='placeholder' />
             </figure>
             <figure className='sponsor'>
-              <img src='https://via.placeholder.com/200x200' alt='' />
+              <img src='https://via.placeholder.com/200x200' alt='placeholder' />
             </figure>
           </section>
         </section>
